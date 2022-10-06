@@ -9,7 +9,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
-.headchoise
+.header-link
 {
     font-family: 'Roboto';
 font-style: normal;
@@ -19,76 +19,114 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
-.inform
+.header-link:hover
+{
+    color: #2196F3;
+}
+.header-mail
 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
-button
+.header-tel
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.main-button
 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-h2
+.main-button:hover
+{
+  background-color: #2196F3;
+}
+.main-title
 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
-p
+.main-items
 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 letter-spacing: 0.03em;
 color: #757575;
 }
-main
+.main-section
  {
     background: #E5E5E5;
  }
- header
+ .header-section
  {
     background: #FFFFFF;
  }
- footer
+ .footer-section
  {
     background: #2F303A;
  }
- address
+ .footer-logo
+ {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+ }
+ .footer-adress
  {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
  }
- footer a
+.footer-email
  {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .footer-tel
+ {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
  }
