@@ -1,5 +1,5 @@
 /* header */
-.logo-header 
+.header-logo
 {
     font-family: 'Raleway';
 font-weight: 700;
@@ -12,10 +12,7 @@ letter-spacing: 0.03em;
 {
    color: #2196F3;
 }
-li
-{
-   list-style-type: none;
-}
+
 .header-link
 {
 font-weight: 500;
@@ -36,6 +33,10 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
+.header-mail:hover
+{
+color: #2196F3;
+}
 .header-tel
 {
 font-weight: 500;
@@ -43,6 +44,10 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
+}
+.header-tel:hover
+{
+color: #2196F3;
 }
 .main-button
 {
@@ -56,6 +61,7 @@ color: #212121;
 .main-button:hover
 {
   background-color: #2196F3;
+  color: #FFFFFF;
 }
 .main-title
 {
@@ -92,11 +98,12 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #000000
+color: #FFFFFF;
  }
 
  .footer-adress
  {
+   font-style: normal; 
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
