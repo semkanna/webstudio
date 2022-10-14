@@ -18,3 +18,8 @@ p
 {
 text-indent: none;
 }
+ul
+{
+    margin: 0%;
+    padding: 0%;
+}
