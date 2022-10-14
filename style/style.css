@@ -8,7 +8,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #000000
 }
-.header-partlogo
+.logo
 {
    color: #2196F3;
 }
@@ -24,7 +24,7 @@ color: #000000
 {
     color: #2196F3;
 }
-.header-contact
+.contact-link
 {
     font-weight: 500;
     font-size: 14px;
@@ -32,27 +32,14 @@ color: #000000
     letter-spacing: 0.02em;
     color: #757575;
 }
-.header-contact:hover
-{
-    color: #2196F3;
-}
-.header-mail
-{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;  
-}
-.header-mail:hover
+.contact-link:hover
 {
     color: #2196F3;
 }
 /* main */
 /* .section-herou */
-.herou-title
+.hero-title
 {
-
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -61,11 +48,11 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-.section-herou
+.hero-section
 {
     background: #2F303A;
 }
-.herou-button
+.hero-button
 {
 font-weight: 700;
 font-size: 16px;
@@ -77,7 +64,8 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color: #2196F3;
 }
-.main-title
+/* якості */
+.qualites-title
 {
 font-weight: 700;
 font-size: 14px;
@@ -86,7 +74,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 }
-.main-text
+.qualites-text
 {
 font-weight: 400;
 font-size: 14px;
@@ -94,7 +82,8 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.section-title
+/* чим ми займаємось */
+.work-title
 {
 font-weight: 700;
 font-size: 36px;
@@ -103,7 +92,8 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.sectionwork-title
+/* наша команда */
+.team-title
 {
     font-weight: 700;
     font-size: 36px;
@@ -112,7 +102,7 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #212121;
 }
-.list-title
+.team-position
 {
     font-weight: 500;
     font-size: 16px;
@@ -121,7 +111,7 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #212121;
 }
-.sectionwork-item
+.team-text
 {
 font-weight: 400;
 font-size: 16px;
@@ -130,6 +120,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
+/* футер */
 .footer-logo
 {
     font-family: 'Raleway';
@@ -138,10 +129,6 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #FFFFFF;
-}
-.footer-partlogo
-{
-    color: #2196F3;
 }
 .footer-address
 {
@@ -156,16 +143,7 @@ color: #FFFFFF;
 {
     background: #2F303A;
 }
-.footer-mail
-{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-
-}
-.footer-contact
+.footer-link
 {
     font-weight: 400;
     font-size: 14px;
