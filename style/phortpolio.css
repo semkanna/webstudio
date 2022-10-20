@@ -6,11 +6,26 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #000000
+color: #000000;
+
 }
 .logo
 {
    color: #2196F3;
+}
+
+.header-section {
+    display: flex;
+}
+
+.header-pages {
+    display: flex;
+    margin-left: 93px;
+}
+
+.header-contacts {
+    display: flex;
+    margin-left: 335px;
 }
 .header-link
 {
@@ -19,6 +34,7 @@ color: #000000
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+    margin-right: 54px;
 }
 .header-link:hover
 {
@@ -31,6 +47,7 @@ color: #000000
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    margin-right: 50px;
 }
 .contact-link:hover
 {
@@ -177,6 +194,7 @@ color: #757575;
 {
 color: #2196F3;
 }
+/* кнопки */
 .buttons-button
 {
 font-weight: 500;
@@ -185,12 +203,24 @@ line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin-right: 8px;
 }
 .buttons-button:hover
 {
   background-color: #2196F3;
   color: #FFFFFF;
 }
+
+.buttons-list:first-child {
+margin-left: 495px;
+margin-top: 94px;
+margin-bottom: 50px;
+}
+
+.buttons-list {
+   display: flex;
+}
+/* картинки */
 .poster-title
 {
 font-weight: 700;
@@ -207,6 +237,21 @@ line-height: 1.875;
 letter-spacing: 0.03em;
 color: #757575;
 }
+
+.posters-list {
+ display: flex;
+ flex-wrap: wrap;
+}
+.poster-text {
+   font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* backgrounds */
 .main-section
  {
     background: #FFFFFF;
@@ -224,6 +269,8 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+margin-bottom: 20px;
+margin-left:215px ;
 }
 .footer-address
 {
@@ -233,10 +280,13 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+margin-left: 215px;
+margin-top: 20px;
 }
 .footer-section
 {
     background: #2F303A;
+    padding-top:60px;
 }
 .footer-link
 {
@@ -246,6 +296,20 @@ color: #FFFFFF;
     letter-spacing: 0.03em;  
     color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-contacts {
+    margin-left: 215px;
+}
+
+.footer-contacts:last-child {
+padding-bottom: 60px;
+}
+
+.body-section
+{
+    font-family: 'Roboto';
+}
+
  .body-section
  {
     font-family: 'Roboto';  
