@@ -14,7 +14,7 @@ color: #000000;
    color: #2196F3;
 }
 
-.header-section {
+header .container  {
     display: flex;
 }
 
@@ -25,7 +25,7 @@ color: #000000;
 
 .header-contacts {
     display: flex;
-    margin-left: 335px;
+    margin-left: auto;
 }
 .header-link
 {
@@ -82,9 +82,11 @@ color: #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* якості */
+.qualites-section {
+    padding-top: 94px;
+}
 .qualites-list {
 display: flex;
-margin-top: 94px;
 }
 
 .qualites-title
@@ -104,7 +106,18 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 }
+
+.qualites-item {
+    width: 271px;
+    height: 101px; 
+    margin-left: 30px;
+}
+
 /* чим ми займаємось */
+.work-section {
+    padding-top: 94px;
+}
+
 .work-title
 {
 font-weight: 700;
@@ -120,12 +133,12 @@ margin-top: 94px;
     width: 370px;
  height: 294px;
  display: flex;
+ margin-top: 50px;
 
 }
 
 .work-item {
     margin-right: 30px;
-    margin-top: 50px;
     align-items: center;
 
 }
@@ -161,6 +174,12 @@ margin-top: 94px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
+.team-list img {
+width: 270px;
+height: 260px;
+}
+
 .team-text
 {
 font-weight: 400;
@@ -174,14 +193,13 @@ margin-bottom: 94px;
 
 .team-list {
 display: flex;
+margin-left: auto;
 }
 .team-item {
     margin-right: 30px;
 }
 
-.team-list {
-    margin-left: 215px;
-}
+
 /* футер */
 .footer-logo
 {
@@ -192,7 +210,6 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 margin-bottom: 20px;
-margin-left:215px ;
 }
 .footer-address
 {
@@ -202,7 +219,6 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
-margin-left: 215px;
 margin-top: 20px;
 }
 .footer-section
@@ -217,10 +233,6 @@ margin-top: 20px;
     line-height: 24px;   
     letter-spacing: 0.03em;  
     color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-contacts {
-    margin-left: 215px;
 }
 
 .footer-contacts:last-child {
