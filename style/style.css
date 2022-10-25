@@ -16,6 +16,8 @@ color: #000000;
 
 header .container  {
     display: flex;
+    padding-top: 25px;
+    padding-bottom: 24px;
 }
 
 .header-pages {
@@ -108,8 +110,7 @@ color: #757575;
 }
 
 .qualites-item {
-    width: 271px;
-    height: 101px; 
+    width: 270px;
     margin-left: 30px;
 }
 
@@ -126,19 +127,15 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-margin-top: 94px;
 }
 
-.work-list {
-    width: 370px;
- height: 294px;
+.work-list { 
  display: flex;
  margin-top: 50px;
 
 }
 
 .work-item {
-    margin-right: 30px;
     align-items: center;
 
 }
@@ -160,7 +157,7 @@ margin-top: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 188px;
+    padding-top: 188px;
     margin-bottom: 50px;
 }
 .team-position
@@ -188,18 +185,13 @@ line-height: 1.1875;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
-margin-bottom: 94px;
+padding-bottom: 94px;
 }
 
 .team-list {
 display: flex;
-margin-left: auto;
-}
-.team-item {
-    margin-right: 30px;
-}
 
-
+}
 /* футер */
 .footer-logo
 {
