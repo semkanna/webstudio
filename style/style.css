@@ -23,11 +23,13 @@ header .container  {
 .header-pages {
     display: flex;
     margin-left: 93px;
+    align-items: center;
 }
 
 .header-contacts {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 .header-link
 {
@@ -99,6 +101,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
+margin-bottom: 10px;
 }
 .qualites-text
 {
@@ -137,6 +140,7 @@ color: #212121;
 
 .work-item {
     align-items: center;
+    margin-right: 30px;
 
 }
 
@@ -190,7 +194,10 @@ padding-bottom: 94px;
 
 .team-list {
 display: flex;
+}
 
+.team-item {
+    margin-bottom: 30px;
 }
 /* футер */
 .footer-logo
