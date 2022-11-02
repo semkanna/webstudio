@@ -124,6 +124,7 @@ color: #757575;
 /* чим ми займаємось */
 .work-section {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .work-title
@@ -157,6 +158,10 @@ color: #212121;
    margin-left: 0;
 }
 /* наша команда */
+.team-section {
+    background: #F5F4FA;
+    padding-top: 94px;
+}
 .team-title
 {
     font-weight: 700;
@@ -165,7 +170,6 @@ color: #212121;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 188px;
     margin-bottom: 50px;
 }
 .team-position
