@@ -107,9 +107,38 @@ text-transform: uppercase;
 color: #212121;
 margin-bottom: 10px;
 }
-.qualites-title::before {
-content: url(../img/photomain.jpg), url(../img/photomain2.jpg), url(../img/photomain3.jpg), url(../img/photomain4.jpg);
 
+.qualites-item:nth-child(1)::before {
+    content: " ";
+    width: 270px;
+height: 120px;
+display: block;
+background-image: url(../img/group1.png);
+margin-bottom: 30px;
+}
+.qualites-item:nth-child(2)::before {
+    content: " ";
+    width: 270px;
+height: 120px;
+display: block;
+background-image: url(../img/group2.png);
+margin-bottom: 30px;
+}
+.qualites-item:nth-child(3)::before {
+    content: " ";
+    width: 270px;
+height: 120px;
+display: block;
+background-image: url(../img/group3.png);
+margin-bottom: 30px;
+}
+.qualites-item:nth-child(4)::before {
+    content: " ";
+    width: 270px;
+height: 120px;
+display: block;
+background-image: url(../img/group4.png);
+margin-bottom: 30px;
 }
 
 .qualites-text
