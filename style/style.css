@@ -72,12 +72,12 @@ header .container  {
 }
 
 .hero-section {
-    background: #2F303A;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../img/webstudio.jpg);
+    background-color: #2F303A;
 }
-
 .hero-button{
     font-weight: 700;
     font-size: 16px;
@@ -107,6 +107,11 @@ text-transform: uppercase;
 color: #212121;
 margin-bottom: 10px;
 }
+.qualites-title::before {
+content: url(../img/photomain.jpg), url(../img/photomain2.jpg), url(../img/photomain3.jpg), url(../img/photomain4.jpg);
+
+}
+
 .qualites-text
 {
 font-weight: 400;
