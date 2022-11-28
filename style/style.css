@@ -359,6 +359,20 @@ margin-top: 20px;
 padding-bottom: 60px;
 }
 
+.join-list {
+display: flex;
+}
+
+.join-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 .body-section
 {
     font-family: 'Roboto';
