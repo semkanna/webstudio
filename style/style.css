@@ -371,8 +371,27 @@ display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
+.join-item {
+    fill: #FFFFFF;
+    border-radius: 50%;
+background-color:rgba(255, 255, 255, 0.1);;
+    margin-right: 10px ;
+    padding: 12px;
+}
+
+.join-item:hover {
+background-color: #2196F3;
+}
+
+.footer-container {
+    position: absolute;
+    left: 516px;
+    top: 2749px;
+    padding-top: 72px;
+}
 .body-section
 {
     font-family: 'Roboto';
