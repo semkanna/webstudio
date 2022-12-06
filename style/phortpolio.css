@@ -31,6 +31,8 @@ header .container  {
     margin-left: auto;
     align-items: center;
 }
+
+/*  */
 .header-link
 {
     font-weight: 500;
@@ -60,6 +62,12 @@ header .container  {
 .contact-link:hover
 {
     color: #2196F3;
+    fill: #2196F3;
+
+}
+
+.header-contacts {
+    display: flex;
 }
  
 /* кнопки */
